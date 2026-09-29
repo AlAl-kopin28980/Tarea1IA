@@ -3,6 +3,7 @@ Un día, Sebastián estaba en clases de Inteligencia Artificial y, aburrido, pen
 supervivencia del grupo, Sebastián cree que la evacuación debe ser rápida y ordenada; sin embargo, los pasillos son estrechos, por lo que una alta concentración de personas en una misma vía genera embotellamientos severos que retrasan el flujo e impiden que todos lleguen a tiempo a la salida.
 
 # Intrucciones de ejecución
-Primero ejecutar: "pip install numpy"
-Para asegurarse de que numpy esté instalado
-Y luego ejecutar: "python main.py" desde el root del proyecto para ejecutar los algoritmos
+Primero ejecutar: "pip install numpy" o "python -m pip install numpy" para asegurarse de que numpy esté instalado.
+
+
+Y luego ejecutar: "python main.py" desde el root del proyecto para ejecutar los algoritmos.

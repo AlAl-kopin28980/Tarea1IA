@@ -1,3 +1,4 @@
+## código escrito con la asistencia de Gemini
 from collections import deque
 import numpy as np
 from algoritmos.a_star import search_a_star
