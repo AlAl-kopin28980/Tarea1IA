@@ -179,10 +179,10 @@ def main():
     run_benchmark(MAPA1, FOCOS_FUEGO_INICIALES1, num_agents=80, iterations=80)
 
     
-    #FOCOS_FUEGO_INICIALES2 = [(25, 1), (1, 25)]
+    FOCOS_FUEGO_INICIALES2 = [(25, 1), (1, 25)]
 
-    #print("Mapa 2:") 
-    #run_benchmark(MAPA2, FOCOS_FUEGO_INICIALES2, num_agents=80, iterations=80)
+    print("Mapa 2:") 
+    run_benchmark(MAPA2, FOCOS_FUEGO_INICIALES2, num_agents=80, iterations=80)
 
 
     FOCOS_FUEGO_INICIALES3 = [(25, 2), (2, 25)]
