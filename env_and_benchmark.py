@@ -71,7 +71,7 @@ class EvacuationEnvironment:
                 nr, nc = r + dr, c + dc
                 if self.is_valid(nr, nc):
                     # El fuego consume todo excepto paredes físicas (1)
-                    if self.grid[nr, nc] != WALL:
+                    if self.grid[nr, nc] != WALL and self.grid[nr, nc] != EXIT :
                         if random.random() < 0.5: #el fuego se expande de forma aleatoria
                             new_fire.add((nr, nc))
 
